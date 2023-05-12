@@ -1,0 +1,233 @@
+/* FONT STYLES  */
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular/roboto-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Roboto-Regular/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-roboto {
+  font-family: "roboto-regular";
+}
+.font-roboto-bold {
+  font-family: "roboto-regular";
+  font-weight: 700;
+}
+/* FONT STYLES  */
+
+/* Font Style lato  */
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/lato-regular/lato-regular-webfont.woff2") format("woff2"),
+    url("../fonts/lato-regular/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-lato {
+  font-family: "lato-regular";
+}
+.font-lato-bold {
+  font-family: "lato-regular";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Font Style lato  */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.header-bg-banner {
+  background-image: url(../images/bg-image-one.jpg); 
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+.menu-brand {
+  font-size: 32px;
+}
+.menu-tab li {
+  padding: 0px 10px 0px 10px;
+  font-size: 19px;
+}
+.menu-tab ul li a:hover {
+  /* background-color: #00d664; */
+  color: #00d664;
+}
+.header-link {
+  color: red;
+}
+.header-link:hover {
+  color: #00d664 !important;
+}
+.menubg-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 344px;
+  margin-top: 6%;
+}
+.menuEn_tab {
+  border: 1px solid #00d664;
+}
+.menu_tab_buttonEn :hover {
+  color: #00d664;
+}
+.menu-header-buttonEn {
+  border: 1px solid gray;
+}
+.client_tab {
+  width: 150px;
+  height: 100px;
+}
+.working_tab {
+  width: 52%;
+  text-align: center;
+}
+.working_tab_item {
+  width: 82%;
+  text-align: center;
+}
+.working_tab_icon {
+  font-size: 45px;
+  color: #00d664;
+}
+.working_cardbg {
+  background-color: #fcfcfe;
+}
+.working_card {
+  box-shadow: 0 0px 1px rgb(0 0 0 / 15%);
+  background-color: #fcfcfe;
+  border: unset;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.working_card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  background-color: #fff;
+}
+.working_secondcard {
+  width: 34%;
+}
+.working-secondcard {
+  width: 62%;
+}
+.working_thirdcard {
+  width: 37.5%;
+}
+/* .working_fourcard {
+  width: 35%;
+} */
+.client_tab_card {
+  width: 28%;
+}
+.underline-end > span {
+  padding-bottom: 2px;
+  border-bottom: 5px solid #00d664;
+}
+.clients_pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.clients_card {
+  background-color: #fcfcfe;
+}
+.clients_card:hover {
+  background-color: #fff;
+}
+.footer_bg {
+  background-color: #273043;
+}
+.contact_footer_text {
+  color: #555f6d;
+}
+.contact_footer_tab {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: unset !important;
+  padding: 0;
+  color: white !important;
+}
+.contact_social_size {
+  font-size: 28px;
+  color: white;
+}
+.footer_button {
+  padding: 8px 30px 8px 30px;
+  box-shadow: none;
+}
+.no_border {
+  border: 0;
+  box-shadow: unset;
+}
+.contact_form {
+  outline: none;
+}
+.border-bottom {
+  border-bottom: 1px solid #c0c1c270 !important;
+}
+.contact_border {
+  border: 1px solid #c0c1c230;
+}
+.footer_item_working {
+  line-height: 40px;
+}
+.footer_mail {
+  position: relative;
+  display: flex;
+}
+.footer_icon {
+  position: absolute;
+  left: 48%;
+  top: -6%;
+  font-size: 32px;
+}
+.footer_icon a {
+  color: #00d664;
+}
+.footer_icon :hover {
+  color: #00d664;
+}
+.footer_tab_email {
+  width: 60%;
+  padding: 25px 0px 25px 5px;
+  border: unset;
+  box-shadow: none;
+  background-color: #000;
+  color: white !important;
+}
+.footer_tab_email:focus {
+  background-color: #000;
+  box-shadow: none;
+}
+.footer_content_color {
+  color: gray;
+}
+.footer_content_color:hover {
+  color: #00d664;
+}
+.footer_contact_text {
+  color: gray;
+}
+.footer_end_text {
+  font-size: 18px;
+  color: gray;
+}
+.formValidation .has-error .help-block {
+  color: #d06868;
+  font-size: 12px;
+  line-height: 1.1;
+  font-style: italic;
+}
